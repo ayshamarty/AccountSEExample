@@ -15,7 +15,7 @@ public class Account {
 	private String accountNumber;
 	@Column(length = 50)
 	private String firstName;
-
+	@Column(length = 50)
 	private String lastName;
 
 	public Account(int id, String accountNumber, String firstName, String lastName) {
